@@ -1,0 +1,7 @@
+[package]
+name = "voxel-jobs"
+version.workspace = true
+edition.workspace = true
+[dependencies]
+crossbeam-channel.workspace = true
+voxel-core = { path = "../voxel-core" }

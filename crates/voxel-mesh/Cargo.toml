@@ -1,0 +1,7 @@
+[package]
+name = "voxel-mesh"
+version.workspace = true
+edition.workspace = true
+[dependencies]
+bytemuck.workspace = true
+voxel-core = { path = "../voxel-core" }

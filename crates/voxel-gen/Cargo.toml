@@ -1,0 +1,7 @@
+[package]
+name = "voxel-gen"
+version.workspace = true
+edition.workspace = true
+[dependencies]
+fastnoise-lite.workspace = true
+voxel-core = { path = "../voxel-core" }

@@ -1,0 +1,14 @@
+[package]
+name = "game"
+version.workspace = true
+edition.workspace = true
+[dependencies]
+glam.workspace = true
+pollster = "0.4"
+tracing-subscriber = "0.3"
+voxel-core = { path = "../voxel-core" }
+voxel-gen = { path = "../voxel-gen" }
+voxel-mesh = { path = "../voxel-mesh" }
+voxel-render = { path = "../voxel-render" }
+wgpu.workspace = true
+winit.workspace = true

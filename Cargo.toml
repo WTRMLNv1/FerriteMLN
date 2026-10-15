@@ -1,0 +1,17 @@
+[workspace]
+resolver = "2"
+members = ["crates/voxel-core", "crates/voxel-gen", "crates/voxel-mesh", "crates/voxel-jobs", "crates/voxel-render", "crates/game"]
+
+[workspace.package]
+edition = "2024"
+version = "0.1.0"
+license = "MIT OR Apache-2.0"
+
+[workspace.dependencies]
+bytemuck = { version = "1.23", features = ["derive"] }
+crossbeam-channel = "0.5"
+fastnoise-lite = "1.1"
+glam = "0.30"
+thiserror = "2"
+wgpu = "25"
+winit = "0.30"
